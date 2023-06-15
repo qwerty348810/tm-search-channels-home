@@ -1,0 +1,22 @@
+.list-block{
+    width: 414px;
+    position: absolute;
+    padding: 50px 0 0; 
+    top: -8px;
+    left: -7px; 
+    background-color: #ffffff;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+}
+.list-block.show{
+    display: block;
+    z-index: 2;
+}
+.list-block.hidden{
+    display: none;
+}
+@media (max-width: 576px){
+    .list-block{
+        width: 250px;
+    }
+}

@@ -1,0 +1,10 @@
+.search__svg, .x-mark__svg{
+    display: none;
+}
+.x-mark__svg:hover{
+    color: #0a58ca;
+}
+.button-search__svg.show .search__svg, .button-search__svg.hidden .x-mark__svg{
+    display: block;
+    cursor: pointer;
+}
